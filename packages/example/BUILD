@@ -7,5 +7,5 @@ rust_binary(
 
 rust_test(
     name = "example_test",
-    srcs = ["src/main.rs"]
+    srcs = ["tests/main_test.rs"]
 )
