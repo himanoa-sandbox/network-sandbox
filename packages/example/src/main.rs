@@ -1,8 +1,7 @@
-#[test]
-fn it_works() {
-    assert_eq!(1, 1);
-}
+extern crate regex;
 
-pub fn main() {
-    println!("Hello World");
+use regex::Match;
+
+fn main() {
+    println!("hello world");
 }
