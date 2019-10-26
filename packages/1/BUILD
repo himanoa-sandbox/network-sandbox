@@ -8,12 +8,7 @@ load(
 )
 
 rust_binary(
-    name = "hello_world",
+    name = "1",
     srcs = ["src/main.rs"],
     deps = [],
-)
-
-rust_doc(
-    name = "hello_world_doc",
-    dep = ":hello_world",
 )
