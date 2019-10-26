@@ -22,3 +22,5 @@ rust_repositories()
 
 load("@io_bazel_rules_rust//:workspace.bzl", "bazel_version")
 bazel_version(name = "bazel_version")
+load("//cargo:crates.bzl", "complicated_cargo_library_fetch_remote_crates")
+complicated_cargo_library_fetch_remote_crates()
